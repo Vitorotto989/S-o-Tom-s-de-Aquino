@@ -4,19 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>São Tomás de Aquino</title>
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="style.css">
     </head>
 <body>
    <header>
     <h1>Tomás de Aquino</h1>
     <p>Um grande filósofo e um frade italiano
-  </header>
+  <header>
 
   <main>
     <article>
 
-        <img src="Tomás.png" alt"A imagem é uma ilustração em estilo pixel art que retrata São Tomás de Aquino lecionando para um grupo de estudantes em um ambiente medieval, possivelmente uma sala de aula de um mosteiro ou universidade antiga."
-     
+        <img src="Tomás.png" alt" A imagem é uma ilustração em estilo pixel art que retrata São Tomás de Aquino lecionando para um grupo de estudantes em um ambiente medieval, possivelmente uma sala de aula de um mosteiro ou universidade antiga." />
+        <div>
+            <h2>Descubra os grandes feitos de Tomás de Aquino</h2>
+            <p class="artigo.autor">Por Vitor</p>
+            <button> ❤ <span>0</span></button>
+            <button> 👍 <span>0</span></button>
+        </div>
+    </article>
+    <article>
+
+        <img src="Tomás.png" alt" A imagem é uma ilustração em estilo pixel art que retrata São Tomás de Aquino lecionando para um grupo de estudantes em um ambiente medieval, possivelmente uma sala de aula de um mosteiro ou universidade antiga." />
         <div>
             <h2>Descubra os grandes feitos de Tomás de Aquino</h2>
             <p class="artigo.autor">Por Vitor</p>
@@ -25,21 +34,10 @@
         </div>
     </article>
      </main>
-     <script src="./style.css"></script>
+     <script src="script.js"></script>
 </body>
 <script>
-    const botoes = document.querySelectorAll("button");
-
-    botoes.forEach(function(botao){
-        botao.addEventListener("click", botaoClicado);
-        function botaoClicado(){
-          console.log("fui clicado");
-          let texto = botao.querySelector("span");
-          texto. textContent++;
-        }
-    }
-
-    )
+    
 
 
 </script>
